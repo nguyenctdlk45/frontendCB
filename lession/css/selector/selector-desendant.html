@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector con cháu</title>
+</head>
+<body>
+    <style>
+        ul#main-menu a{
+            color: red;
+        }
+        ul#main-menu ul.sub-menu a{
+            color: blue;
+        }
+        a {
+            color: yellow;
+        }
+    </style>
+    <ul id="main-menu">
+        <li><a href="">item 1</a></li>
+        <li><a href="">item 2</a>
+        <ul class="sub-menu">
+            <li><a href="">item 1</a></li>
+            <li><a href="">item 2</a></li>
+        </ul>
+        </li>
+        <li><a href="">item 3</a></li>
+        <li><a href="">item 4</a></li>
+    </ul>
+    <a href=""> item 10</a>
+</body>
+</html>

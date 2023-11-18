@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>z-index</h3>
+    <style>
+        .box-parent{
+            background-color: beige;
+            width: 600px;
+            height: 600px;
+            position: relative;
+        }
+        .box-1{
+            height: 50px;
+            width: 50px;
+            background-color: yellow;
+            position: absolute;
+            top: 50px;
+            left: 100px;
+            z-index: 1;
+        }
+        .box-2{
+            height: 50px;
+            width: 50px;
+            background-color: rgb(222, 103, 23);
+            position: absolute;
+            top: 75px;
+            left: 125px;
+        }
+        
+    </style>
+    <div class="box-parent">
+        <div class="box-1">box-1</div>
+        <div class="box-2">box-2</div>
+    </div>
+</body>
+</html>

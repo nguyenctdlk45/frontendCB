@@ -1,0 +1,20 @@
+#wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+#header{
+    background-color: tomato;
+    padding: 15px;
+    color: white;
+}
+#footer{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    
+}
+#content{
+    min-height:600px;
+    background-color: beige;
+    
+}

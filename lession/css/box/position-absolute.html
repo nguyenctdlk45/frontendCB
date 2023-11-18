@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        body{
+            position: relative;
+        }
+        .box-parent{
+            width: 400px;
+            height: 200px;
+            background-color: brown;
+            position: relative;
+            position: absolute;
+            right: 20px;
+            
+        }
+        .box-child{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 15px;
+            background-color: rgb(202, 237, 62);
+        }
+    </style>
+    <h2>position relative</h2>
+    <div class="box-parent">
+        <div class="box-child">child</div>
+    </div>
+</body>
+</html>

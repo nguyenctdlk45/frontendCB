@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attr Selector</title>
+</head>
+<body>
+    <style>
+        /* tên thuộc tính */
+        a[href]{
+            color: blue;
+        }
+        /* bắt đầu */
+        /* a[href ^="http"]{
+            color: brown;
+        } */
+        /* kết thúc */
+        a[href $="vn"]{
+            color: rgb(171, 18, 214);
+        }
+        /* bằng 1 giá trị nào đó tự đặt */
+        a[data ="10"]{
+            background: black;
+        }
+        /* chứa chuỗi */
+        a[href *= "tintuc"]{
+            background: yellow;
+        }
+    </style>
+    <h1>Attr Selector</h1>
+    <a href="htts://unitop.com"  data="10">thẻ thử 1</a><br>
+    <a href="http://tintuc.vn">thẻ thử 2</a>
+
+</body>
+</html>

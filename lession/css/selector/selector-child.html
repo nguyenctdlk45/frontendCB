@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        /*----------- tác động theo cha con */
+        /* ul.list>li:first-child{
+            color: red;
+            font-weight: bold;
+        } */
+        /* -----------tác động theo hậu duệ */
+        /* ul li:first-child{
+            color: red;
+            font-weight: bold;
+        } */
+        /* ul li:last-child{
+            color: green;
+            font-weight: bold;
+        } */
+        ul.list>li:nth-child(odd) {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+    <h3>selector child</h3>
+    <ul class="list">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+        <li>item 7</li>
+        <li>item 8</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển thị danh sách sản phẩm</title>
+</head>
+
+<body>
+    <style>
+        #wrapper {
+            width: 960px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        ul.list-products {
+            padding-left: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+
+        }
+
+        ul li.product-item {
+            flex-basis: 30%;
+            box-sizing: border-box;
+            padding-top: 15px;
+            border: 1px solid;
+            text-align: center;
+            margin: 15px;
+            position: relative;
+            height: 250px;
+            overflow: hidden;
+
+        }
+
+        ul li.product-item:hover {
+            border: 3px solid tomato;
+        }
+
+        img {
+            width: 170px;
+        }
+
+        .product-name {
+            text-decoration: none;
+            color: #232020;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        .buy-now {
+            position: absolute;
+            display: block;
+            text-decoration: none;
+            color: rgb(248, 248, 248);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            width: inherit;
+            background-color: orangered;
+            padding: 10px;
+            bottom: 0;
+            bottom: -38px;
+            right: 0;
+            left: 0;
+            transition: all 0.5s;
+
+
+        }
+
+        ul li.product-item:hover .buy-now {
+            position: absolute;
+            display: block;
+            text-decoration: none;
+            color: rgb(248, 248, 248);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            width: inherit;
+            background-color: orangered;
+            padding: 10px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            visibility: visible;
+
+        }
+
+        .discount img {
+            position: absolute;
+            width: 40px;
+            top: 0px;
+            right: 0;
+        }
+    </style>
+    <div id="wrapper">
+        <h1>Bài Tập 7 Hiển thị danh sách sản phẩm</h1>
+        <ul class="list-products">
+            <li class="product-item">
+                <a href="">
+                    <img src="../images/drive-download-20230916T114219Z-001/product1.jpg" alt="">
+                </a>
+                <div class="price">499.000đ</div>
+                <a href="" class="product-name">Lorem, ipsum dolor sit amet consectetur adipisicing.</a><br>
+                <a href="" class="buy-now">Mua ngay</a>
+                <span class="discount">
+                    <img src="../images/drive-download-20230916T114219Z-001/sale.png" alt="">
+                </span>
+            </li>
+            <li class="product-item">
+                <a href="">
+                    <img src="../images/drive-download-20230916T114219Z-001/product1.jpg" alt="">
+                </a>
+                <div class="price">499.000đ</div>
+                <a href="" class="product-name">Lorem, ipsum dolor sit amet consectetur adipisicing.</a><br>
+                <a href="" class="buy-now">Mua ngay</a>
+                <!-- <span class="discount">
+                    <img src="../images/drive-download-20230916T114219Z-001/sale.png" alt="">
+                </span> -->
+            </li>
+            <li class="product-item">
+                <a href="">
+                    <img src="../images/drive-download-20230916T114219Z-001/product1.jpg" alt="">
+                </a>
+                <div class="price">499.000đ</div>
+                <a href="" class="product-name">Lorem, ipsum dolor sit amet consectetur adipisicing.</a><br>
+                <a href="" class="buy-now">Mua ngay</a>
+                <!-- <span class="discount">
+                    <img src="../images/drive-download-20230916T114219Z-001/sale.png" alt="">
+                </span> -->
+            </li>
+            <li class="product-item">
+                <a href="">
+                    <img src="../images/drive-download-20230916T114219Z-001/product1.jpg" alt="">
+                </a>
+                <div class="price">499.000đ</div>
+                <a href="" class="product-name">Lorem, ipsum dolor sit amet consectetur adipisicing.</a><br>
+                <a href="" class="buy-now">Mua ngay</a>
+                <span class="discount">
+                    <img src="../images/drive-download-20230916T114219Z-001/sale.png" alt="">
+                </span>
+            </li>
+            <li class="product-item">
+                <a href="">
+                    <img src="../images/drive-download-20230916T114219Z-001/product1.jpg" alt="">
+                </a>
+                <div class="price">499.000đ</div>
+                <a href="" class="product-name">Lorem, ipsum dolor sit amet consectetur adipisicing.</a><br>
+                <a href="" class="buy-now">Mua ngay</a>
+                <!-- <span class="discount">
+                    <img src="../images/drive-download-20230916T114219Z-001/sale.png" alt="">
+                </span> -->
+            </li>
+            <li class="product-item">
+                <a href="">
+                    <img src="../images/drive-download-20230916T114219Z-001/product1.jpg" alt="">
+                </a>
+                <div class="price">499.000đ</div>
+                <a href="" class="product-name">Lorem, ipsum dolor sit amet consectetur adipisicing.</a><br>
+                <a href="" class="buy-now">Mua ngay</a>
+                <!-- <span class="discount">
+                    <img src="../images/drive-download-20230916T114219Z-001/sale.png" alt="">
+                </span> -->
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

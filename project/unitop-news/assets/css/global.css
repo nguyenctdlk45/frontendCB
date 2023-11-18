@@ -1,0 +1,25 @@
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-center{
+    text-align: center;
+}
+.text-border{
+    font-weight: bolder;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+}
+.container-full{
+    max-width: 100%;
+    justify-content: space-between;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.d-flex{
+    display: flex;
+}

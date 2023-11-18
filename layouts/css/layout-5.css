@@ -1,0 +1,29 @@
+#wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+#header{
+    background-color: tomato;
+    padding: 15px;
+    color: white;
+}
+#footer{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    
+}
+#wp-content{
+    display: flex;
+    min-height:600px;
+}
+#content{
+    background-color: beige;
+    /* width: 60%;
+     */
+    flex-basis: 70%;
+}
+#sidebar{
+    background-color: rgb(199, 199, 193);
+    flex-basis: 30%;
+}

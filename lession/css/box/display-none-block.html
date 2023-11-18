@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .sub-menu ul{
+            display: none;
+        }
+
+        ul li.sub-menu:hover  ul{
+            display: block;
+        }
+    </style>
+    <h3> display none and block</h3>
+    <ul>
+        <li>item-1</li>
+        <li>item-2</li>
+        <li class="sub-menu">item-3
+            <ul>
+                <li>item-1</li>
+                <li>item-2</li>
+                <li>item-3</li>
+            </ul>
+        </li>
+        <li>item-4</li>
+        <li>item-5</li>
+    </ul>
+</body>
+
+</html>
